@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #f4f6fb;
+  color: #222;
+  line-height: 1.9;
+}
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin-top: 0;
+  color: #1f3c88;
+}
+
+.intro p {
+  margin: 8px 0;
+}
+
+.progress {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #555;
+}
+
+.question-box {
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f0f4ff;
+  border: 1px solid #d6e0ff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+.option input {
+  accent-color: #1f66ff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  border: none;
+  background: #d9e3ff;
+  color: #123;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  opacity: 0.95;
+}
+
+.btn.primary {
+  background: #1f66ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #eef6ff;
+  border: 1px solid #cfe1ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>آزمون خودآگاهی</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="intro card">
+      <h1>آزمون خودآگاهی</h1>
+      <p>باسلام و احترام</p>
+      <p>
+        آزمونی که ‌پیش روی خود میبینید، به منظور سنجش میزان خودآگاهی شماست و
+        نتیجه آن نشان میدهد که چقدر خود را میشناسید.
+      </p>
+      <p>گزینه انتخابی را با بلی یا خیر مشخص کنید.</p>
+      <p>به هرپاسخ بلی یک امتیاز تعلق می‌گیرد.</p>
+      <p>
+        اگر تعداد جواب های بلی شما بیشتر از 14 مورد شد، نشان دهنده ی این است
+        که خودآگاهی شما بالا می‌باشد.
+      </p>
+      <p>سعی کنید به سوالات صادقانه و با دقت پاسخ دهید.</p>
+      <p>....</p>
+    </section>
+
+    <section class="quiz card">
+      <div class="progress">
+        <span id="progressText">سوال 1 از 20</span>
+      </div>
+
+      <div id="questionBox" class="question-box">
+        <h2 id="questionText"></h2>
+
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="answer" value="yes" />
+            <span>بلی</span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" value="no" />
+            <span>خیر</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="prevBtn" class="btn">قبلی</button>
+        <button id="nextBtn" class="btn primary">بعدی</button>
+      </div>
+
+      <div id="resultBox" class="result hidden"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
